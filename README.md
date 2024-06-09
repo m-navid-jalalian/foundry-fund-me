@@ -1,16 +1,18 @@
-Getting Started
-Requirements
-git
+# Getting Started
+
+## Requirements
+
+### git
 You'll know you did it right if you can run git --version and you see a response like git version x.x.x
-foundry
+### foundry
 You'll know you did it right if you can run forge --version and you see a response like forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)
-Quickstart
+### Quickstart
 cd foundry-fund-me-f23
 forge build
-Optional Gitpod
+### Optional Gitpod
 If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the clone this repo part.
 
-Open in Gitpod
+## Open in Gitpod
 
 Usage
 Deploy
@@ -40,14 +42,14 @@ forge coverage
 Local zkSync
 The instructions here will allow you to work with this repo on zkSync.
 
-(Additional) Requirements
+## (Additional) Requirements
 In addition to the requirements above, you'll need:
 
-foundry-zksync
+### foundry-zksync
 You'll know you did it right if you can run forge --version and you see a response like forge 0.0.2 (816e00b 2023-03-16T00:05:26.396218Z).
-npx & npm
+### npx & npm
 You'll know you did it right if you can run npm --version and you see a response like 7.24.0 and npx --version and you see a response like 8.1.0.
-docker
+### docker
 You'll know you did it right if you can run docker --version and you see a response like Docker version 20.10.7, build f0df350.
 Then, you'll want the daemon running, you'll know it's running if you can run docker --info and in the output you'll see something like the following to know it's running:
 Client:
